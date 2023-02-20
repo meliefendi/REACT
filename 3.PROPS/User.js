@@ -80,4 +80,19 @@ User.propTypes = {
     friends:PropTypes.array,
 }
 
+//////////////////////////////////////////////6 shape
+//bir obje için prototypes belirtme yöntemidir. yani içerisinde birden fazla başlık bulunuyosa bu yöntemle prototypes ları belirtilir.
+User.propTypes = {
+    name:PropTypes.string.isRequired,
+    surname:PropTypes.string.isRequired,
+    age:PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    isLoggedIn:PropTypes.bool.isRequired,
+    friends:PropTypes.array,
+    adress:PropTypes.shape({
+        title:PropTypes.string,
+        zip:PropTypes.number
+    })
+}
+
+//////////////////////////////////////////////7
 
