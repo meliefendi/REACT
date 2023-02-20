@@ -27,3 +27,37 @@ function User({ name, surname, age, isLoggedIn, friends }) {
 
 export default User;
 
+//////////////////////////////////////////////3
+
+import PropTypes from "prop-types";
+//React PropTypes, bir React bileşeninin özelliklerinin doğru bir şekilde tanımlanmasını sağlamak için kullanılan bir özelliktir. Bu özellik, bir bileşenin hangi türden özelliklere ihtiyaç duyduğunu ve her bir özelliğin nasıl görünmesi gerektiğini tanımlar. PropTypes, bileşenlerin doğru bir şekilde kullanılmasına yardımcı olur ve kodun daha anlaşılır ve sürdürülebilir olmasını sağlar.
+
+function User({ name, surname, age, isLoggedIn, friends }) {
+    return (
+        <>
+            <h1>{isLoggedIn ? `${name} ${surname} (${age})` : "Giriş yapmadınız."}</h1>
+
+            {
+                friends.map((friend) => (
+                    <div key = {friend.id}>
+                        {friend.id} - {friend.name}
+                    </div>
+                ))
+            }
+        </>
+    )
+};
+
+User.propTypes = {
+    name:PropTypes.string,
+    surname:PropTypes.string,
+    age:PropTypes.number,
+    isLoggedIn:PropTypes.bool,
+    friends:PropTypes.array,
+}
+
+export default User;
+
+//////////////////////////////////////////////4
+
+
