@@ -59,5 +59,17 @@ User.propTypes = {
 export default User;
 
 //////////////////////////////////////////////4
+//zorunlu olduğunu belirtmek isteğimiz propsTypes kısmına isRequired ekliyoruz. eğer tamamlanmazsa o kısım hata verir.
+
+User.propTypes = {
+    name:PropTypes.string.isRequired,
+    surname:PropTypes.string.isRequired,
+    age:PropTypes.number.isRequired,
+    isLoggedIn:PropTypes.bool.isRequired,
+    friends:PropTypes.array,
+}
+
+//////////////////////////////////////////////5
+
 
 
