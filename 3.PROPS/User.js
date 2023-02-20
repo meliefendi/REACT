@@ -27,7 +27,7 @@ function User({ name, surname, age, isLoggedIn, friends }) {
 
 export default User;
 
-//////////////////////////////////////////////3
+//////////////////////////////////////////////3 PropTypes
 
 import PropTypes from "prop-types";
 //React PropTypes, bir React bileşeninin özelliklerinin doğru bir şekilde tanımlanmasını sağlamak için kullanılan bir özelliktir. Bu özellik, bir bileşenin hangi türden özelliklere ihtiyaç duyduğunu ve her bir özelliğin nasıl görünmesi gerektiğini tanımlar. PropTypes, bileşenlerin doğru bir şekilde kullanılmasına yardımcı olur ve kodun daha anlaşılır ve sürdürülebilir olmasını sağlar.
@@ -58,7 +58,7 @@ User.propTypes = {
 
 export default User;
 
-//////////////////////////////////////////////4
+//////////////////////////////////////////////4 isRequired
 //zorunlu olduğunu belirtmek isteğimiz propsTypes kısmına isRequired ekliyoruz. eğer tamamlanmazsa o kısım hata verir.
 
 User.propTypes = {
@@ -69,7 +69,15 @@ User.propTypes = {
     friends:PropTypes.array,
 }
 
-//////////////////////////////////////////////5
+//////////////////////////////////////////////5 oneOfType
+//eğer birden fazla gerekli alan eklemek istediğinde oneOfType propertiesi proptypes tan sonra eklenir.
 
+User.propTypes = {
+    name:PropTypes.string.isRequired,
+    surname:PropTypes.string.isRequired,
+    age:PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired, 
+    isLoggedIn:PropTypes.bool.isRequired,
+    friends:PropTypes.array,
+}
 
 
