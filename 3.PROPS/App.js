@@ -32,3 +32,4 @@ export default App;
 //değişiklik yapılmadı.
 
 ///////////////////////////////////5
+//değişiklik yapılmadı.
