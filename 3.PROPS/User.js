@@ -97,5 +97,12 @@ User.propTypes = {
     })
 }
 
-//////////////////////////////////////////////7
+//////////////////////////////////////////////7 defaultProps
+//ögelere varsayılan olarak veri girme işlemi. eğer tanımsız olan object elemanı olursa onun değerini defaultProps ta tanımlarsak onu atar.
 
+User.defaultProps = {
+    name:"İsimsiz",
+    isLoggedIn:false,
+}
+
+//////////////////////////////////////////////8 
