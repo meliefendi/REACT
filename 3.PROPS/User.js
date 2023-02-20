@@ -81,7 +81,10 @@ User.propTypes = {
 }
 
 //////////////////////////////////////////////6 shape
-//bir obje için prototypes belirtme yöntemidir. yani içerisinde birden fazla başlık bulunuyosa bu yöntemle prototypes ları belirtilir.
+//bir obje için prototypes belirtme yöntemidir. yani içerisinde birden fazla başlık bulunuyosa bu yöntemle prototypes ları belirtilir.address yeni eklendi.
+
+ {address.title} {address.zip} ve bunlar
+
 User.propTypes = {
     name:PropTypes.string.isRequired,
     surname:PropTypes.string.isRequired,
