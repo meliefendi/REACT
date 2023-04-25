@@ -1,6 +1,6 @@
 //3/ githup yup tan import edilme durumu kopylandı. ve sayfa içerisinde kullanılacak veriler sayfaya tanımlandı.
 import { object, string,ref } from 'yup';
-
+//React Yup, bir form doğrulama kütüphanesidir. React uygulamalarında sıklıkla kullanılan form doğrulama işlemlerini kolaylaştırmak için oluşturulmuştur.
 
 let Validations = object({
   
