@@ -20,7 +20,7 @@ function ChatForm() {
 
         //CONTEXTTEN ÇEKİLEN STATİ BAĞLIYORUZ VE İÇERİSİNE ÖNCEKİ YAZILARI VE SONRADAN EKLENECEK MESJALARI ATIYORUZ. TÜM YOLLADIĞIMIZ MESAJLARIN GÖRÜNTÜLEMESİNİ
         // YAPMAK İÇİN.
-        setMesssages((prevState) => [...prevState, { message }])
+        setMesssages((prevState) => [...prevState, { message, fromMe: true }])
         
         
         console.log(message)
