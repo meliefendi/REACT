@@ -19,7 +19,8 @@ function ChatForm() {
         e.preventDefault()
 
         //CONTEXTTEN ÇEKİLEN STATİ BAĞLIYORUZ VE İÇERİSİNE ÖNCEKİ YAZILARI VE SONRADAN EKLENECEK MESJALARI ATIYORUZ. TÜM YOLLADIĞIMIZ MESAJLARIN GÖRÜNTÜLEMESİNİ
-        // YAPMAK İÇİN.
+        // YAPMAK İÇİN. ayrıca fromMe ile mesaj bendense true diyerek chatitem sayfasına koul ekliyoruz. eğer mesajı biz yazıyosak mesaj sağ tarafa karşı tarafa ise
+        // sol taraf düşüyor, eğer karşı taraf mesaj atıyosa aynı işlem orda gerçekleşiyor.
         setMesssages((prevState) => [...prevState, { message, fromMe: true }])
         
         
