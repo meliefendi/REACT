@@ -20,7 +20,7 @@ function Contacts(){
         // subscribeChat();burasıyla 3.yorumdaki işlem yapıldı.
         // BURAYLA İSE BU METODA YOLLANAN MESAJ DİĞER BAĞLI SAYFALARDA DA GÖRÜNTÜLENDİ.
         subscribeChat((message) => {
-            setMesssages((prevState) => [...prevState, { message, fromMe:true }]);
+            setMesssages((prevState) => [...prevState, { message }]);
         })
     }, []);
     return(
