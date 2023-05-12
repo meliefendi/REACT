@@ -1,5 +1,6 @@
 //SURGE SİTESİ BİZE ÜCRETSİZ YAYIN HAKKI VERİYOR. BU İŞLEMLER YAPMAK İÇİN İLK OLARAK SURGE PAKETİNİ KURDUK. DAHA SORNA YENİ REACT DOSYASI KURDUK
-// VE DAHA SONRA NPM RUN BUİLD DEDİK BUİLD DOSYASI OLUŞTURDU. DAHA SORNA BUİLDE GİDİP SURGE DEDİK VE İÇERİSİNDE KURULUM GERÇEKLEŞTİRDİK.DAHA SONRA YAYINA ALDIK.
+// VE DAHA SONRA NPM RUN BUİLD DEDİK BUİLD DOSYASI OLUŞTURDU. DAHA SORNA BUİLDE GİDİP SURGE DEDİK VE İÇERİSİNDE KURULUM GERÇEKLEŞTİRDİK.DAHA SONRA YAYINA ALDIK. 
+http://meli.akkas.surge.sh/
 
 import logo from './logo.svg';
 import './App.css';
@@ -26,3 +27,14 @@ function App() {
 }
 
 export default App;
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: aliceblue;
+  height: 100vh;
+  flex-direction: column;
+}
