@@ -8,7 +8,7 @@ import Users2 from "./components2/users2";
 import User2 from "./components2/user2";
 import Contacts2 from "./components2/contacts2";
  
-
+//NAVLİNKLERE activeClassName="active" clasını eklersek o class ilgili yerlerde uygulanır fakat css'te active class'ını tanımlamamız lazım.
 function App2() {
   return (
     //browserRouter ile sarmala aldık. react'ın avantajı bu özelliğidir. güncelenen kısıma odaklanmasını sağlayan yapı budur.
