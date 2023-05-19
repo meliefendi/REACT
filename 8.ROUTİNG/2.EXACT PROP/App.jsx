@@ -1,6 +1,7 @@
 import './App.css';
 
-//1.yarn add react-router-dom ile paket yüklemesini yaptık ve bunları import ettik veee dedik ki "browserRouter" yerine "as" "Router" kullanılcak dedik.
+//1.yarn add react-router-dom ile paket yüklemesini yaptık ve bunları import ettik veee dedik ki "browserRouter" yerine "as" "Router" kullanılcak dedik. //BU ARADA
+// REACT-ROUTER-DOM GÜNCELLEME ALMIŞ VE YENİ HALİ AŞAĞIDAKİ ŞEKİLDE İMPORT EDİLİP PATH İ DE AŞAĞIDAKİ GİBİ VERİYORUZ SAYFASINDAKİ HATA VERİYOR.
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
