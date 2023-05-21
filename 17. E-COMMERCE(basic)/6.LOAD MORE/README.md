@@ -1,5 +1,1 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1.BURDAKİ OLAYIMIZ AŞAĞI İNDİKÇE DATABASE'DEKİ YENİ VERİLERİN GELMESİDİR. NORMALDE SINIRLI SAYIDA GELİRKEN BU İŞLEMDEN SONRA DATADAKİ TÜM VERİLERİ WEB SAYFASINDA AŞAĞILARA İNDİKÇE ALMAKTAYIZ BUNUN İÇİN İSE REACT QUERYDEKİ İNFİNİTE QUERY'Yİ KULLANIYORUZ. 
