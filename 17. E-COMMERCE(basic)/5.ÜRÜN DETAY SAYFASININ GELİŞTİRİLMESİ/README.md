@@ -1,5 +1,6 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1. FARKLI OLARAK İMAGE GALLERY VE USEPARAMS KULLANILDI.
+2. İLK OLARAK ÜRÜN İDLERİ TANITILDI /PRODUCT/PRODUCT_İD ŞEKLİNDE VE DAHA SONRA BU İD LERE GÖRE ÜRÜN DETAY SAYFASI OLUŞTURULDU. HER BİR İD FARKLI OLDUĞU İÇİN İD YE GÖRE DATABASE
+DEKİ BİLGİLER GETİRİLDİ.
+3.PRODUCTTAKİ GİBİ FARKLI KÜTÜPHANELER KULLANILDI. CHAKRA, MOMENT, DOM, QUERY GİBİ 
+4. AYRICA GENEL ÜRÜN ÇAĞIRMA URL Sİ ENV DOSYASINA TANIMLANDI. ARTIK ONU ORDAN ÇAĞIRIYORUZ.
+5. ÜRÜN DETAY SAYFASI BAŞARIYLA OLUŞTURULDU HER ŞEY DÜZGÜN ÇALIŞMAKTA. 
