@@ -1,5 +1,4 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1. BU KISIMDA İSE GİRİŞ YAPMIŞ OLAN KULLANICI BİLGİLERİNİ LOCAL KAYDEDİP SİTE İÇERİSİNDE LOGİN OLARAK DOLAŞMASINA İMKAN VEREN AYARLAR YAPILIR VE BURASI Bİ TIK KARIŞIK VE YENİ
+YÖNTEMLER İÇERMEKTE ÖRNEĞİN AXİOS'UN İNTERCEPTOR METODU VE CONTEXT SAYFASI İÇERİSİNE JSX İFADESİ. BU YÖNTEM BU LOGİN İŞLEMLERİNDE YAYGIN Bİ KULLANIŞMIŞ. İNTERCEPTOR METODU İSE
+HTTP İSTEKLERİ GÖNDERİLMEDEN ÖNCE ÇALIŞMASI İÇİN GERELİDİR. BURDAKİ AMAÇ KİMLİK DOĞRULAMA İŞLEMİDİR. YANİ SİTE İÇERİSİNDE LOGİN OLARAK DOLANMAMAZI SAĞLAR.
+2. HERHANGİ BİR SORUN YOK GÜZEL BİR ŞEKİLDE ÇALIŞMAKTA
