@@ -1,5 +1,4 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1. GEÇEN DERSTEN KALAN VALİDASYON İŞLERİNİ HALLETTİK. ERROR MESAJ VS 
+2. DAHA SONRA REGİSTER OLAN KULLANICININ VERİLERİNİN DATABASE ÜZERİNE GÖNDERİLMESİNİ SAĞLADIK.
+3. YENİ Bİ TEKNOLOJİ KULLANILMADI TEKRAR APİ İŞLEMLERİYLE HALLETTİK.
+4. SORUNSUZ ÇALIŞIYOR.
