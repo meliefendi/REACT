@@ -1,5 +1,3 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1. BURADA LOGOUT OLDUKTAN SONRA KAYIT EDİLEN KULLANICIYA URL ÇUBUĞUNDAN YAZIP ULAŞMAKTAYDIK VE BUNUN ÖNÜNE GEÇMEK İÇİN LOGOUT SONRASI EĞER LOGİN FALSE İSE BURADA GİRİŞ SAĞLANDI MI DİREKT ANASAYFA YÖNENDİRMESİ YAPILDI VE BUNUN ÖNÜNE GEÇİLDİ. YETKİSİZ KULLANCI OLARAK GİRİŞ YAPILAMIYOR ARTIK.
+2. DAHA SONRA REGİSTER SONRASI DİREKT PROFİLE SAYFASINA YÖNELENDİRME YAPILDI. KULLANICI BİLGİLERİ GÖRÜNTÜLENİYOR.
+3. SORUNSUZ ÇALIŞMAKTA. YÖNLENDİRME OLAYLARINDA GÜNCELLEME OLMUŞ. O GÜNCELLEME DE OUTLET VE USENAVİGATE
