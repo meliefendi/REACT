@@ -1,5 +1,5 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1. BU DERSTE SEPET SAYFASI TASARIM VE ARKA PLAN YANİ ÜRÜN EKLEME KALDIRMA ÜRÜNE GİTME, ÜRÜNLERİN TOPLAM FİYAT GİBİ DETAYLARINI EKLEDİK.
+2. HEM SEPET SAYFASINDAN HEM ÜRÜNLERİN BULUNDUĞU SAYFADAN ÜRÜN EKLEME ÇIKARMA İŞLEMİ YAPILDI.
+3. SEÇİLEN ÜRÜNLERE GİTME SAYFASI YAPILDI.
+4. 404 SAYFASI YAPILDI.
+5. DÜZGÜN OLARAK ÇALIŞIYOR.
