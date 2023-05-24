@@ -1,5 +1,4 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1. BURADA PRODUCT DETAİL SAYFASINDAKİ SEPETE ÜRÜN EKLEME BUTONUNDAN ÜRÜN EKLEME İŞLEMLERİNİ YAPTIK. 
+2. BUNUN İÇİN SEPETTEKİ ÜRÜNÜ TUTMAK İÇİN SEPETE ÖZEL CONTEXT OLUŞTURDUK VE İŞLEMLERİ BURASIYLA GERÇEKLEŞTİRDİK.
+3. DAHA SONRA 1 ÜRÜNÜ DEFALARCA EKLEMEMSI İÇİN FİND VE FİLTERED METODLARINI KULLANDIK.
+4. SORUNSUZ ÇALIŞMAKTA.
