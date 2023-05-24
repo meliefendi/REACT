@@ -1,5 +1,2 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1.BU DERSTE LOGİN İŞLEMLERİNİ VE SAYFASINI OLUŞTURDUK. SİGN UP SAYFASININ AYNISINI SİGN İN COMPONENTİNE YAPTIK, TABİKİ PASSWORD CONFİRM OLMADAN.
+2.SAĞLIKLI BİR ŞEKİLDE ÇALIŞIYOR.
