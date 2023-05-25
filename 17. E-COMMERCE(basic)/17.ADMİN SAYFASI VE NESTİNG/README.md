@@ -1,5 +1,3 @@
- 1- componenti oluşturduk.
- 2- site içi yönlendirme olacağı için router kurduk. ayrıca router yapısı değişmiş ona uygun kurulum sağlandı.
- 3- componentler hazırlandı. daha sonra css ayarlamaları yapıldı.
- 4- chakra ui kuruldu ve kullanıldı. kullanımı çok güzel bir yardımcı kütüphane
- 5- her şey güzel çalışıyor.
+1.BU DERSTE ADMİN BUTONU VE SAYFASINI OLUŞTURDUK.
+2.DAHA SONRA ADMİN SAYFASI İÇERİSİNDEN ULAŞMASI GEREKEN SAYFALARI OLUŞTURDUK. PRODUCTS, ORDERS VE HOME SAYFALARINI BUNLARI NESTİNG ŞEKİLDE OLUŞTURDUK.
+3.ŞU AN İÇİN HERHANGİ BİR SORUN YOK.
