@@ -1,0 +1,29 @@
+/* .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+nav {
+  background-color:antiquewhite;
+  font-size: large;
+}
+
+nav ul {
+  margin: 0 0 10 px 0;
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 5px;
+}
+ */
+
+ #content {
+  padding: 15px;
+}
+
