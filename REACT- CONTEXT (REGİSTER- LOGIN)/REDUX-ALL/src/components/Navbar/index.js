@@ -7,7 +7,7 @@ import { Button } from '@chakra-ui/react'
 import { useAuth } from "../../context/AuthContext";
 
 function Navbar() {
-    const { loggedIn } = useAuth();
+    const { loggedIn, user } = useAuth();
 
     console.log(loggedIn)
     return (
@@ -32,6 +32,14 @@ function Navbar() {
                         <Link to="/signin" >  <Button colorScheme='blue'>Login</Button> </Link>
                         <Link to="/signup" >  <Button colorScheme='blue'>Register</Button> </Link>
                     </>)
+                }
+
+                {
+                    user?.role === "admin" && (
+                        <Link to="/admin" >
+                        <Button colorScheme="pink" variant="ghost" > Admin </Button>
+                        </Link>
+                    )
                 }
 
                 {
