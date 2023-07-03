@@ -33,7 +33,7 @@ function Navbar() {
                         <Link to="/signup" >  <Button colorScheme='blue'>Register</Button> </Link>
                     </>)
                 }
-
+//KULLANICI GİRİŞİ ADMİN İSE SAĞ ÜSTTE ADMİN BUTONU ÇIKAR ONU DÜZENLEMEDİM İSTERSEN ONUN İÇİN COMPONENT KURABİLİRSİN. EĞER NORMAL KULLANICI İSE YANİ USER ADMİN BUTONU ÇIKMAZ
                 {
                     user?.role === "admin" && (
                         <Link to="/admin" >
